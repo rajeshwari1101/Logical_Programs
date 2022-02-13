@@ -8,7 +8,8 @@ namespace SnakeAndLadder
         {
             Console.WriteLine("Hello, World!");
             //LogicalPrograms.Fibonacci();
-            LogicalPrograms.PerfectNo();
+            //LogicalPrograms.PerfectNo();
+            LogicalPrograms.Prime();
             Console.ReadLine();
         }
     }
