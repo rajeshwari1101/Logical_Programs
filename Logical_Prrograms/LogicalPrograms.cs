@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace Logical_Prrograms
 {
@@ -105,6 +106,20 @@ namespace Logical_Prrograms
             Console.WriteLine("Coupons Generated:");
             foreach (int coupon in coupons)
                 Console.Write(coupon + " ");
+        }
+
+        //Simulate Stopwatch Program
+        public static void TimeElapsed()
+        {
+            Stopwatch timer = Stopwatch.StartNew();
+            Console.WriteLine("----------Stop Watch----------");
+            Console.WriteLine("Enter any key to start timer");
+            Console.ReadKey(true);
+            timer.Start();
+            Console.WriteLine("Enter any key to stop timer");
+            Console.ReadKey(true);
+            timer.Stop();
+            Console.WriteLine("Time elapsed: " + timer.Elapsed);
         }
 
     }

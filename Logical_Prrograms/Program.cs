@@ -11,7 +11,8 @@ namespace SnakeAndLadder
             //LogicalPrograms.PerfectNo();
             //LogicalPrograms.Prime();
             //LogicalPrograms.ReverseNo();
-            LogicalPrograms.GetCoupons();
+            //LogicalPrograms.GetCoupons();
+            LogicalPrograms.TimeElapsed();
             Console.ReadLine();
         }
     }
