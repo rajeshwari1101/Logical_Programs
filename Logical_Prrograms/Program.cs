@@ -10,7 +10,8 @@ namespace SnakeAndLadder
             //LogicalPrograms.Fibonacci();
             //LogicalPrograms.PerfectNo();
             //LogicalPrograms.Prime();
-            LogicalPrograms.ReverseNo();
+            //LogicalPrograms.ReverseNo();
+            LogicalPrograms.GetCoupons();
             Console.ReadLine();
         }
     }
