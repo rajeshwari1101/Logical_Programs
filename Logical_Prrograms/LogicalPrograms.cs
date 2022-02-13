@@ -77,5 +77,16 @@ namespace Logical_Prrograms
                 Console.WriteLine("The no is not Prime");
         }
 
+        //Reverse number program 
+        public static void ReverseNo()
+        {
+            int reverse = 0;
+            Console.WriteLine("----------Reverse the Number----------");
+            int n = GetPositiveInt("Enter a +ve no: ");
+            for (; n > 0; n /= 10)
+                reverse = (reverse * 10) + (n % 10);
+            Console.WriteLine("Reverse is " + reverse);
+        }
+
     }
 }
